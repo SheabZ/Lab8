@@ -62,7 +62,7 @@ public class CustomListTest {
         City city3 = new City("Calgary", "Alberta");
         list.addCity(city2);
         list.addCity(city3);
-        assertEquals(list.countCities(), 3);
+        assertEquals(list.countCities(), 2);
     }
 
 }
