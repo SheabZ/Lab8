@@ -1,10 +1,13 @@
 plugins {
     id 'com.android.application'
 }
-
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
 android {
     compileSdk 34
-
     defaultConfig {
         applicationId "com.example.lab8"
         minSdk 21
